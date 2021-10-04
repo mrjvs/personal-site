@@ -25,5 +25,6 @@
     width: 100%;
     min-height: 100%;
     color: #8d90aa;
+    overflow-x: hidden;
   }
 </style>
