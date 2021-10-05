@@ -15,3 +15,8 @@ body {
 *, *::before, *::after {
   box-sizing: border-box;
 }
+
+::-moz-selection, ::selection {
+  background-color: #5cdfad;
+  color: #182b22;
+}

@@ -22,6 +22,7 @@
         around with basic HTML/CSS in middle school, I decided to make it my job
         and been studying for it ever since.
       </Paragraph>
+      <Link type="external" target="replace" to="#id" arrow>Contact me</Link>
     </div>
     <div slot="right">
       <HoverableImage

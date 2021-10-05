@@ -16,6 +16,8 @@
 </Router>
 
 <style lang="scss">
+  @use 'colors' as c;
+
   .container {
     position: relative;
     display: flex;
@@ -24,7 +26,7 @@
     justify-content: flex-start;
     width: 100%;
     min-height: 100%;
-    color: #8d90aa;
     overflow-x: hidden;
+    color: c.$text_paragraph;
   }
 </style>

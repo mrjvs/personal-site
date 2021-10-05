@@ -6,6 +6,7 @@ import livereload from "rollup-plugin-livereload";
 import { terser } from "rollup-plugin-terser";
 import css from "rollup-plugin-css-only";
 import alias from "@rollup/plugin-alias";
+import { string } from "rollup-plugin-string";
 
 const aliases = alias({
   resolve: [".svelte", ".js"],
@@ -76,6 +77,9 @@ export default {
     resolve({
       browser: true,
       dedupe: ["svelte"],
+    }),
+    string({
+      include: "assets/icons/**/*.svg",
     }),
     commonjs(),
 

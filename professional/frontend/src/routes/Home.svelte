@@ -1,6 +1,7 @@
 <script>
   import Navbar from "partials/Navbar.svelte";
   import Container from "../components/Container.svelte";
+  import CardList from "../partials/CardList.svelte";
   import Hero from "../partials/Hero.svelte";
 </script>
 
@@ -11,4 +12,5 @@
 <Container>
   <Navbar />
   <Hero />
+  <CardList />
 </Container>
