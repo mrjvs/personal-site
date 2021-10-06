@@ -30,32 +30,26 @@
 </script>
 
 {#if type === "external"}
-  <a href={to} target={realTarget} class={classList}
-    ><slot />{#if arrow}<Icon
-        class="arrow"
-        fill="none"
-        stroke-width="3"
-        data={arrowIcon}
-      />{/if}</a
-  >
+  <a href={to} target={realTarget} class={classList}>
+    <slot />
+    {#if arrow}
+      <Icon class="arrow" fill="none" stroke-width="3" data={arrowIcon} />
+    {/if}
+  </a>
 {:else if type === "internal"}
-  <Link {to} class={classList}
-    ><slot />{#if arrow}<Icon
-        class="arrow"
-        fill="none"
-        stroke-width="3"
-        data={arrowIcon}
-      />{/if}</Link
-  >
+  <Link {to} class={classList}>
+    <slot />
+    {#if arrow}
+      <Icon class="arrow" fill="none" stroke-width="3" data={arrowIcon} />
+    {/if}
+  </Link>
 {:else}
-  <span class={classList}
-    ><slot />{#if arrow}<Icon
-        class="arrow"
-        fill="none"
-        stroke-width="3"
-        data={arrowIcon}
-      />{/if}</span
-  >
+  <span class={classList}>
+    <slot />
+    {#if arrow}
+      <Icon class="arrow" fill="none" stroke-width="3" data={arrowIcon} />
+    {/if}
+  </span>
 {/if}
 
 <style lang="scss">

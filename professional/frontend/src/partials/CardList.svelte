@@ -6,6 +6,7 @@
   import Pretendo from "../components/ui/cardHeadings/Pretendo.svelte";
   import Heading from "../components/ui/Heading.svelte";
   import Link from "../components/ui/Link.svelte";
+  import MoreCard from "../components/ui/MoreCard.svelte";
   import Paragraph from "../components/ui/Paragraph.svelte";
 </script>
 
@@ -55,6 +56,6 @@
       </Paragraph>
       <Link type="internal" to="#" color="pink" arrow>How I did it</Link>
     </Card>
-    <Card>4</Card>
+    <MoreCard />
   </div>
 </ColumnGrid>
