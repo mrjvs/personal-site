@@ -3,6 +3,9 @@
   import Container from "../components/Container.svelte";
   import CardList from "../partials/CardList.svelte";
   import Hero from "../partials/Hero.svelte";
+
+  // needed for SSR
+  export let location = "";
 </script>
 
 <svelte:head>

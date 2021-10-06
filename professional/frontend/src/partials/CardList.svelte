@@ -1,6 +1,9 @@
 <script>
   import ColumnGrid from "../components/layout/ColumnGrid.svelte";
   import Card from "../components/ui/Card.svelte";
+  import AmBoats from "../components/ui/cardHeadings/AMBoats.svelte";
+  import Designcourse from "../components/ui/cardHeadings/Designcourse.svelte";
+  import Pretendo from "../components/ui/cardHeadings/Pretendo.svelte";
   import Heading from "../components/ui/Heading.svelte";
   import Link from "../components/ui/Link.svelte";
   import Paragraph from "../components/ui/Paragraph.svelte";
@@ -10,7 +13,7 @@
   <div slot="left">
     <Card>
       <div slot="head">
-        <p>Logo here</p>
+        <Designcourse />
       </div>
 
       <Heading size="h2">Designcourse</Heading>
@@ -24,7 +27,7 @@
     </Card>
     <Card>
       <div slot="head">
-        <p>Logo here</p>
+        <AmBoats />
       </div>
 
       <Heading size="h2">AM boats</Heading>
@@ -40,7 +43,7 @@
   <div slot="right">
     <Card>
       <div slot="head">
-        <p>Logo here</p>
+        <Pretendo />
       </div>
 
       <Heading size="h2">Pretendo</Heading>

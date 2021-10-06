@@ -14,6 +14,12 @@
     background-color: c.$bg_gray_300;
     border-radius: 15px;
     color: c.$text_card_body;
+    overflow: hidden;
+    transition: transform 50ms ease-in-out;
+
+    &:hover {
+      transform: scale(1.02);
+    }
 
     .body {
       padding: 3rem;
