@@ -19,6 +19,10 @@
     color: c.$text_white;
     font-weight: bold;
     margin: 0;
+
+    &.h2 {
+      font-size: sizes.$text_card;
+    }
   }
 
   h4 {

@@ -1,3 +1,8 @@
+<script>
+  // needed for SSR
+  export let location = "";
+</script>
+
 <svelte:head>
   <title>Designcourse | mrjvs</title>
 </svelte:head>
